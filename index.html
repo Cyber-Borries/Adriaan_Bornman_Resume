@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./stylesheets/stylesheet.css" />
+
+    <title>Adriaan Bornman</title>
+  </head>
+  <body>
+    <nav class="navbar-container navbar nav-light">
+      <div class="toggle-button" id="toggle_button">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <!-- <div class="nav-items"> -->
+      <div class="logo"><div class="brand-name"> <span> Bornman</span></div></div>
+      <div class="nav-item-link">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact me</a></li>
+        </ul>
+      </div>
+      <!-- </div> -->
+    </nav>
+    <main class="main-container" id="top">
+      <h1 class="headings">Welcome to my portfolio!</h1>
+      <div class="main-container-content">
+        <div class="main-left small-main" id="mainLeft">
+          <h2 class="headings">How can I help you</h2>
+          <div class="services" id="services">
+            <ul class="servicesList">
+              <li>Designing of your responsive website</li>
+              <li>Development of your website</li>
+              <li>Deployment of your website</li>
+              <li>Post deployment monitoring</li>
+              <li>Hosting of your website</li>
+            </ul>
+          </div>
+          <!-- <div class="servicesBG"></div> -->
+        </div>
+        <div class="main-right small-main" id="mainRight">
+          <h2 class="headings">What we stand for</h2>
+          <p>
+            We believe in making the web more accessible to all, whether you're accessing the website with a cellphone, tablet, pc or even a screen reader. Everyone should receive the same experience when visiting a website. 
+          </p>
+        </div>
+      </div>
+      <section class="who-am-i" id="about">
+        <h2 class="headings">Who is Adriaan?</h2>
+        <br />
+        <!-- <img src="./images/adriaan.JPG" alt="Picture of Adriaan" class="adriaan-img"> -->
+          <em class="em-style"> Scroll down to find out</em>
+        </p>
+        <p class="who-am-i-p">
+          <img src="./images/adriaan.JPG" alt="Picture of Adriaan" class="adriaan-img">Well, I am Adriaan. A fun outgoing person always ready for a good laugh or a conversation. I absolutely love dad jokes and dry humour. 
+          
+          I am a full stack web developer specialising in creating mobile first web designs to make sure that everybody can access your website, whether that be from a cellphone, tablet or computer, the website should look good on all devices. I am proficient in HTML, CSS and JavaScript and some frameworks. But what does it mean to code in HTML, CSS and JavaScript? Well, that means that your website will be written in the three most popular web languages available to us today.
+        </p>
+          <h3 class="headings">What do I do in my free time?</h3>
+          <p class="who-am-i-p">My hobbies include playing computer games with my friends online, spending time with family and I am passionate about motorcyles and all things tech. I love learning and improving my coding skills and knowledge whenever I get a chance.
+          </p>
+      </section>
+    </main>
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="main-projects-container">
+        <div class="project-container project-card">
+          <img
+            src="./images/esenciaMC.JPG"
+            alt="Esencia MC"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Esencia MC</h3>
+          <p class="project-details">
+            A work in progress, most of the functionability has been added. This is an e-commerce store for a health shop in Peru. It features a functional cart where you can add items. The remove function, order and payment abilities are still in progress. This website was made using, HTML, CSS and JavaScript.
+          </p>
+          <a href="https://cyber-borries.github.io/Esencia-MC-store/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="./images/mindset-site.JPG"
+            alt="Mindset website"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Mental Health Website</h3>
+          <p class="project-details">
+            This website is a personal project aimed at helping people with depression. Thoughts change into emotions and emotions change into actions. Whenever you get negative thoughts they snowball into something bigger and it might not always be possible to stop the chain of thoughts, that's where this website comes in. This website is being made using, HTML, CSS and JavaScript.
+          </p>
+          <a href="#" target="_blank" class="project-link not-live-yet">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <a href="#top"><button class="btn btn-top">Back to top</button></a>
+
+    <footer class="footer">
+      <div class="copyright">
+        <p>
+          &copy; Adriaan Bornman &nbsp;&nbsp; All Rights Reserved.&nbsp;&nbsp;
+          Proudly created by
+          <a href="https://www.facebook.com/adriaan.bornman/"
+            >Adriaan Bornman</a
+          >
+        </p>
+        <p>Last updated: July 2022</p>
+      </div>
+      <div class="btn contact-btn">
+        <a
+          href="https://www.facebook.com/adriaan.bornman"
+          target="_blank"
+          class="social-media-icon facebook"
+        >
+          <img
+            src="./images/facebook.png"
+            alt="facebook logo"
+            class="social-media-icon facebook"
+          />
+        </a>
+        <a
+          href="https://twitter.com/adriaan953"
+          target="_blank"
+          class="social-media-icon twitter"
+        >
+          <img
+            src="./images/twitter.png"
+            alt="twitter logo"
+            class="social-media-icon twitter"
+          />
+        </a>
+        <a
+          href="https://wa.me/27718879375"
+          target="_blank"
+          class="social-media-icon whatsapp"
+        >
+          <img
+            src="./images/whatsapp.png"
+            alt="whatsapp logo"
+            class="social-media-icon whatsapp"
+          />
+        </a>
+      </div>
+    </footer>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
